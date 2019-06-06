@@ -14,7 +14,6 @@ gettext-minimal
 gnu-config
 init-ifupdown
 initscripts
-kern-tools
 ldconfig
 libnsl2
 libtool-cross
@@ -26,14 +25,22 @@ opkg-utils
 packagegroup-core-boot
 prelink
 ptest-runner
-qemu-helper
-qemuwrapper-cross
 run-postinsts
 shadow-securetty
 shadow-sysroot
 sysvinit-inittab
 texinfo-dummy
 tzcode
-update-rc.d
 util-macros
 which
+
+# yocto original tools
+qemu-helper
+qemu-helper-native
+qemuwrapper-cross
+yocto-kernel-tools
+kern-tools-native
+makedevs-native
+update-rc.d
+update-rc.d-native
+texinfo-dummy-native
