@@ -37,3 +37,6 @@ tzcode
 update-rc.d
 util-macros
 which
+
+# glibc-locale package use meta-debian's glibc source
+glibc-locale
