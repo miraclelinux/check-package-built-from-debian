@@ -37,3 +37,10 @@ tzcode
 update-rc.d
 util-macros
 which
+
+
+# debian gcc packages which build on ${TMPDIR}/work-shared/
+gcc-cross-aarch64
+libgcc
+libgcc-initial
+
