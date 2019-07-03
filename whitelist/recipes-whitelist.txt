@@ -44,3 +44,6 @@ makedevs-native
 update-rc.d
 update-rc.d-native
 texinfo-dummy-native
+
+# glibc-locale package use meta-debian's glibc source
+glibc-locale
